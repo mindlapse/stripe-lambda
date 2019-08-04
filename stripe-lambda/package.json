@@ -1,0 +1,26 @@
+{
+  "name": "stripe-lambda",
+  "version": "1.0.0",
+  "description": "Serverless functions for performing Stripe actions",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mindlapse/stripe-lambda.git"
+  },
+  "keywords": [
+    "stripe",
+    "lambda"
+  ],
+  "author": "Dave MacDonald",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mindlapse/stripe-lambda/issues"
+  },
+  "homepage": "https://github.com/mindlapse/stripe-lambda#readme",
+  "dependencies": {
+    "stripe": "^7.6.0"
+  }
+}
